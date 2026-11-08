@@ -764,15 +764,27 @@
     const onLabel = chrome.i18n?.getMessage?.('statusOn') || 'ON';
     const offLabel = chrome.i18n?.getMessage?.('statusOff') || 'OFF';
 
-    floatingBtn.innerHTML = `
-      <span class="yt-as-icon">
-        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
-          <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/>
-        </svg>
-      </span>
-      <span>${platformLabel} Scroll</span>
-      <span class="yt-as-badge">${isActive ? onLabel : offLabel}</span>
-    `;
+    floatingBtn.textContent = '';
+    const iconSpan = document.createElement('span');
+    iconSpan.className = 'yt-as-icon';
+    const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    svg.setAttribute('viewBox', '0 0 24 24');
+    svg.setAttribute('width', '16');
+    svg.setAttribute('height', '16');
+    svg.setAttribute('fill', 'currentColor');
+    const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+    path.setAttribute('d', 'M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z');
+    svg.appendChild(path);
+    iconSpan.appendChild(svg);
+
+    const textSpan = document.createElement('span');
+    textSpan.textContent = ` ${platformLabel} Scroll `;
+
+    const badgeSpan = document.createElement('span');
+    badgeSpan.className = 'yt-as-badge';
+    badgeSpan.textContent = isActive ? onLabel : offLabel;
+
+    floatingBtn.append(iconSpan, textSpan, badgeSpan);
   }
 
   function toggleCurrentAutoScroll() {
