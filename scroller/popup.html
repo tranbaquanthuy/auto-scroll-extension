@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Auto Scroll for YouTube & TikTok</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo-group">
+      <img src="icon48.png" alt="Logo" class="logo">
+      <div class="title-wrap">
+        <h1 class="title">Auto Scroll</h1>
+        <span class="subtitle" data-i18n="subTitle">for YouTube & TikTok</span>
+      </div>
+    </div>
+    <div class="header-actions">
+      <!-- Language Selector -->
+      <select id="langSelect" class="lang-select" title="Language / Ngôn ngữ">
+        <option value="auto">🌐 Auto</option>
+        <option value="en">English</option>
+        <option value="vi">Tiếng Việt</option>
+        <option value="es">Español</option>
+        <option value="pt_BR">Português</option>
+        <option value="zh_CN">简体中文</option>
+        <option value="zh_TW">繁體中文</option>
+        <option value="ja">日本語</option>
+        <option value="ko">한국어</option>
+        <option value="de">Deutsch</option>
+        <option value="fr">Français</option>
+        <option value="ru">Русский</option>
+        <option value="id">Indonesia</option>
+        <option value="hi">हिन्दी</option>
+      </select>
+      <span class="version-tag">v1.6</span>
+      <label class="switch master-switch" title="Master Toggle">
+        <input type="checkbox" id="masterEnabled">
+        <span class="slider"></span>
+      </label>
+    </div>
+  </header>
+
+  <main class="content" id="mainContent">
+    <!-- TikTok Section -->
+    <div class="card">
+      <div class="card-header">
+        <div class="card-icon tiktok-icon">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+            <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64c.29 0 .58.04.86.12V9.35a6.33 6.33 0 0 0-.86-.06A6.34 6.34 0 0 0 3 15.63a6.34 6.34 0 0 0 10.82 4.48 6.27 6.27 0 0 0 1.86-4.48V8.7a8.28 8.28 0 0 0 5.21 1.83V7.08a4.85 4.85 0 0 1-1.3-.39z"/>
+          </svg>
+        </div>
+        <div class="card-title-group">
+          <span class="card-title" data-i18n="tiktokTitle">TikTok Auto Scroll</span>
+          <span class="card-desc" data-i18n="tiktokDesc">Auto-advance TikTok videos</span>
+        </div>
+        <label class="switch">
+          <input type="checkbox" id="tiktokEnabled">
+          <span class="slider"></span>
+        </label>
+      </div>
+
+      <div class="card-body" id="tiktokOptions">
+        <div class="option-row">
+          <span class="option-label" data-i18n="skipAds">Auto-skip Sponsored Ads</span>
+          <label class="mini-switch">
+            <input type="checkbox" id="tiktokSkipAds">
+            <span class="mini-slider"></span>
+          </label>
+        </div>
+
+        <div class="option-row">
+          <span class="option-label" data-i18n="skipLive">Auto-skip Livestreams</span>
+          <label class="mini-switch">
+            <input type="checkbox" id="tiktokSkipLive">
+            <span class="mini-slider"></span>
+          </label>
+        </div>
+
+        <div class="option-row">
+          <span class="option-label" data-i18n="videoDelay">Delay before scrolling</span>
+          <div class="option-control">
+            <select id="tiktokDelay" class="select-box">
+              <option value="0" data-i18n="delayInstant">Instant (0s)</option>
+              <option value="0.5" data-i18n="delayHalfSec">0.5 seconds</option>
+              <option value="1" data-i18n="delayOneSec">1.0 second</option>
+              <option value="2" data-i18n="delayTwoSec">2.0 seconds</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- YouTube Shorts Section -->
+    <div class="card">
+      <div class="card-header">
+        <div class="card-icon shorts-icon">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+            <path d="M10 14.65v-5.3L15 12l-5 2.65zm7.8-7.17l-.8-.47V7c0-2.21-1.79-4-4-4-1.25 0-2.38.58-3.12 1.48L7.8 3.32C6.18 2.22 4 3.39 4 5.35V17c0 2.21 1.79 4 4 4 1.25 0 2.38-.58 3.12-1.48l2.08 1.16c1.62 1.1 3.8-.07 3.8-2.03V7.48z"/>
+          </svg>
+        </div>
+        <div class="card-title-group">
+          <span class="card-title" data-i18n="shortsTitle">YouTube Shorts</span>
+          <span class="card-desc" data-i18n="shortsDesc">Auto-advance Shorts videos</span>
+        </div>
+        <label class="switch">
+          <input type="checkbox" id="shortsEnabled">
+          <span class="slider"></span>
+        </label>
+      </div>
+
+      <div class="card-body" id="shortsOptions">
+        <div class="option-row">
+          <span class="option-label" data-i18n="scrollDelay">Delay before scrolling</span>
+          <div class="option-control">
+            <select id="shortsDelay" class="select-box">
+              <option value="0" data-i18n="delayInstant">Instant (0s)</option>
+              <option value="0.5" data-i18n="delayHalfSec">0.5 seconds</option>
+              <option value="1" data-i18n="delayOneSec">1.0 second</option>
+              <option value="2" data-i18n="delayTwoSec">2.0 seconds</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="option-row">
+          <span class="option-label" data-i18n="loopCount">Replay before scrolling</span>
+          <div class="option-control">
+            <select id="shortsLoopCount" class="select-box">
+              <option value="1" data-i18n="loop1">1 time (default)</option>
+              <option value="2" data-i18n="loop2">2 times</option>
+              <option value="3" data-i18n="loop3">3 times</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Smart Settings -->
+    <div class="card">
+      <div class="card-header">
+        <div class="card-icon page-icon">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+            <path d="M12 15.5A3.5 3.5 0 0 1 8.5 12 3.5 3.5 0 0 1 12 8.5a3.5 3.5 0 0 1 3.5 3.5 3.5 3.5 0 0 1-3.5 3.5m7.43-2.53c.04-.32.07-.64.07-.97 0-.33-.03-.66-.07-1l2.11-1.63c.19-.15.24-.42.12-.64l-2-3.46c-.12-.22-.39-.31-.61-.22l-2.49 1c-.52-.39-1.06-.73-1.69-.98l-.37-2.65A.506.506 0 0 0 14 2h-4c-.25 0-.46.18-.5.42l-.37 2.65c-.63.25-1.17.59-1.69.98l-2.49-1c-.22-.09-.49 0-.61.22l-2 3.46c-.13.22-.07.49.12.64L4.57 11c-.04.34-.07.67-.07 1 0 .33.03.65.07.97l-2.11 1.66c-.19.15-.25.42-.12.64l2 3.46c.12.22.39.3.61.22l2.49-1.01c.52.4 1.06.74 1.69.99l.37 2.65c.04.24.25.42.5.42h4c.25 0 .46-.18.5-.42l.37-2.65c.63-.26 1.17-.59 1.69-.99l2.49 1.01c.22.08.49 0 .61-.22l2-3.46c.12-.22.07-.49-.12-.64l-2.11-1.66z"/>
+          </svg>
+        </div>
+        <div class="card-title-group">
+          <span class="card-title" data-i18n="smartSettings">Smart Settings</span>
+          <span class="card-desc" data-i18n="smartDesc">Comments & Navigation</span>
+        </div>
+      </div>
+
+      <div class="card-body">
+        <div class="option-row">
+          <span class="option-label" data-i18n="pauseOnComments">Pause when comments are open</span>
+          <label class="mini-switch" title="Pause auto scroll while reading comments">
+            <input type="checkbox" id="pauseOnCommentsOpen">
+            <span class="mini-slider"></span>
+          </label>
+        </div>
+
+        <div class="option-row">
+          <span class="option-label" data-i18n="scrollDirection">Scroll direction</span>
+          <div class="option-control">
+            <select id="scrollDirection" class="select-box">
+              <option value="down" data-i18n="scrollDown">Down (Next video)</option>
+              <option value="up" data-i18n="scrollUp">Up (Previous video)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="option-row">
+          <span class="option-label" data-i18n="floatingBtn">Floating button on screen</span>
+          <label class="mini-switch">
+            <input type="checkbox" id="showFloatingBtn">
+            <span class="mini-slider"></span>
+          </label>
+        </div>
+
+        <div class="option-row">
+          <span class="option-label" data-i18n="pageScroll">Regular YouTube auto-scroll</span>
+          <label class="mini-switch">
+            <input type="checkbox" id="pageScrollEnabled">
+            <span class="mini-slider"></span>
+          </label>
+        </div>
+
+        <div class="option-row column" id="speedRow">
+          <div class="range-header">
+            <span class="option-label" data-i18n="scrollSpeed">Regular scroll speed</span>
+            <span class="range-value" id="speedDisplay">3</span>
+          </div>
+          <input type="range" id="pageScrollSpeed" min="1" max="10" step="1" value="3" class="range-slider">
+        </div>
+      </div>
+    </div>
+
+    <!-- Donator Card -->
+    <div class="card donate-card" id="openDonateModal">
+      <div class="card-header">
+        <div class="card-icon heart-icon">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+            <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+          </svg>
+        </div>
+        <div class="card-title-group">
+          <span class="card-title" data-i18n="donateCardTitle">Support the Developer</span>
+          <span class="card-desc" data-i18n="donateCardDesc">ko-fi.com/poordev1997 ❤️</span>
+        </div>
+        <button type="button" class="btn-donate" data-i18n="btnDonate">Support</button>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-links">
+      <a href="#" id="btnRate" class="footer-link" data-i18n="rateExtension">⭐ Rate 5 Stars</a>
+      <span class="link-sep">•</span>
+      <a href="https://ko-fi.com/poordev1997" target="_blank" id="footerKofi" class="footer-link">☕ Ko-fi</a>
+    </div>
+    <div class="shortcut-tip">
+      <kbd>Alt</kbd> + <kbd>S</kbd> <span data-i18n="shortcutTip">to toggle quickly</span>
+    </div>
+  </footer>
+
+  <!-- Donate & Donator Modal -->
+  <div class="modal-overlay" id="donateModal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="modal-title-wrap">
+          <span class="modal-heart">❤️</span>
+          <h2 class="modal-title" data-i18n="modalTitle">Support & Donators</h2>
+        </div>
+        <button type="button" class="modal-close" id="closeDonateModal">&times;</button>
+      </div>
+
+      <div class="modal-tabs">
+        <button type="button" class="modal-tab active" data-tab="tab-donate" data-i18n="tabDonate">☕ Support (Donate)</button>
+        <button type="button" class="modal-tab" data-tab="tab-donators" data-i18n="tabDonators">🌟 Donators</button>
+      </div>
+
+      <!-- Tab 1: Donate Details -->
+      <div class="tab-pane active" id="tab-donate">
+        <p class="donate-intro" data-i18n="donateIntro">If you enjoy this extension, consider buying the developer a coffee! ☕</p>
+
+        <!-- Method 1: Ko-fi (Primary) -->
+        <div class="donate-method kofi-method">
+          <div class="method-header">
+            <span class="method-badge kofi-badge" data-i18n="kofiTitle">☕ Ko-fi</span>
+            <span class="method-sub" data-i18n="kofiSub">International & local cards</span>
+          </div>
+          <button type="button" class="btn-kofi" id="btnKofi">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+              <path d="M23.881 8.948c-.773-4.085-4.859-4.593-4.859-4.593H.723c-.604 0-.679.798-.679.798s-.082 7.324-.022 11.822c.164 2.424 2.586 2.672 2.586 2.672s8.267-.023 11.966-.049c2.438-.426 2.683-2.566 2.658-3.734 4.352.24 7.422-2.831 6.649-6.916zm-11.062 3.511c-1.246 1.453-4.047 3.974-4.047 3.974s-2.793-2.513-4.043-3.967c-.893-1.042-1.026-2.613-.197-3.666.903-1.147 2.612-1.282 3.864-.207l.376.324.379-.324c1.252-1.075 2.961-.94 3.864.207.829 1.053.696 2.624-.196 3.659zm5.955-.745c-.328 1.733-1.748 1.83-1.748 1.83v-5.26s1.42.097 1.748 1.83c.307 1.62-.055 1.6-.055 1.6z"/>
+            </svg>
+            <span data-i18n="kofiBtn">Buy me a coffee: ko-fi.com/poordev1997</span>
+          </button>
+          <div class="copy-box" style="margin-top: 8px;">
+            <div class="copy-info">
+              <span class="copy-label" data-i18n="kofiUrlLabel">Ko-fi Link</span>
+              <span class="copy-val" id="kofiUrl">https://ko-fi.com/poordev1997</span>
+            </div>
+            <button type="button" class="btn-copy" data-target="kofiUrl" data-i18n="copy">Copy</button>
+          </div>
+        </div>
+
+        <!-- Method 2: Chuyển khoản VietQR -->
+        <div class="donate-method">
+          <div class="method-header">
+            <span class="method-badge" data-i18n="bankTitle">Bank Transfer / VietQR</span>
+            <span class="method-sub" data-i18n="bankSub">Scan QR for quick transfer</span>
+          </div>
+          <div class="copy-box">
+            <div class="copy-info">
+              <span class="copy-label">MB Bank</span>
+              <span class="copy-val" id="bankNum">0345678999</span>
+            </div>
+            <button type="button" class="btn-copy" data-target="bankNum" data-i18n="copy">Copy</button>
+          </div>
+        </div>
+
+        <!-- Method 3: MoMo -->
+        <div class="donate-method">
+          <div class="method-header">
+            <span class="method-badge momo-badge">MoMo</span>
+          </div>
+          <div class="copy-box">
+            <div class="copy-info">
+              <span class="copy-label">MoMo Number</span>
+              <span class="copy-val" id="momoNum">0345678999</span>
+            </div>
+            <button type="button" class="btn-copy" data-target="momoNum" data-i18n="copy">Copy</button>
+          </div>
+        </div>
+
+        <p class="donate-note" data-i18n="donateNote">💡 Your support keeps this project active and continuously improved! ❤️</p>
+      </div>
+
+      <!-- Tab 2: Donators List -->
+      <div class="tab-pane" id="tab-donators">
+        <div class="donators-header">
+          <span class="donators-badge" data-i18n="donatorsBadge">Top Supporters</span>
+          <span class="donators-desc" data-i18n="donatorsDesc">Special thanks to our generous supporters ❤️</span>
+        </div>
+
+        <ul class="donators-list" id="donatorsList">
+          <li class="donator-item top">
+            <span class="donator-rank">🥇</span>
+            <div class="donator-info">
+              <span class="donator-name">Anonymous Supporter</span>
+              <span class="donator-msg">"Supported via Ko-fi, super smooth extension!"</span>
+            </div>
+            <span class="donator-tag">VIP</span>
+          </li>
+          <li class="donator-item">
+            <span class="donator-rank">🥈</span>
+            <div class="donator-info">
+              <span class="donator-name">Anonymous Friend</span>
+              <span class="donator-msg">"Thanks for the TikTok ad skipper, works like magic"</span>
+            </div>
+          </li>
+          <li class="donator-item">
+            <span class="donator-rank">🥉</span>
+            <div class="donator-info">
+              <span class="donator-name">You next?</span>
+              <span class="donator-msg">Visit ko-fi.com/poordev1997 to be featured here ❤️</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

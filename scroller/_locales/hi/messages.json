@@ -1,0 +1,170 @@
+{
+  "appName": {
+    "message": "YouTube और TikTok के लिए ऑटो स्क्रॉल"
+  },
+  "appDesc": {
+    "message": "वीडियो खत्म होने पर YouTube Shorts और TikTok को अपने आप स्क्रॉल करें। विज्ञापन और लाइव स्ट्रीम छोड़ें।"
+  },
+  "subTitle": {
+    "message": "YouTube और TikTok के लिए"
+  },
+  "masterSwitchTitle": {
+    "message": "मास्टर स्विच (सभी चालू/बंद करें)"
+  },
+  "tiktokTitle": {
+    "message": "TikTok ऑटो स्क्रॉल"
+  },
+  "tiktokDesc": {
+    "message": "TikTok वीडियो अपने आप आगे बढ़ाएं"
+  },
+  "skipAds": {
+    "message": "प्रायोजित विज्ञापन छोड़ें"
+  },
+  "skipLive": {
+    "message": "लाइव स्ट्रीम छोड़ें"
+  },
+  "videoDelay": {
+    "message": "स्क्रॉल करने से पहले प्रतीक्षा समय"
+  },
+  "delayInstant": {
+    "message": "तुरंत (0s)"
+  },
+  "delayHalfSec": {
+    "message": "0.5 सेकंड"
+  },
+  "delayOneSec": {
+    "message": "1.0 सेकंड"
+  },
+  "delayTwoSec": {
+    "message": "2.0 सेकंड"
+  },
+  "shortsTitle": {
+    "message": "YouTube Shorts"
+  },
+  "shortsDesc": {
+    "message": "Shorts वीडियो अपने आप आगे बढ़ाएं"
+  },
+  "scrollDelay": {
+    "message": "स्क्रॉल करने से पहले प्रतीक्षा समय"
+  },
+  "loopCount": {
+    "message": "स्क्रॉल करने से पहले दोहराव"
+  },
+  "loop1": {
+    "message": "1 बार (डिफ़ॉल्ट)"
+  },
+  "loop2": {
+    "message": "2 बार"
+  },
+  "loop3": {
+    "message": "3 बार"
+  },
+  "smartSettings": {
+    "message": "स्मार्ट सेटिंग्स"
+  },
+  "smartDesc": {
+    "message": "टिप्पणियाँ और नेविगेशन"
+  },
+  "pauseOnComments": {
+    "message": "टिप्पणी बॉक्स खुला होने पर रोकें"
+  },
+  "scrollDirection": {
+    "message": "स्क्रॉल दिशा"
+  },
+  "scrollDown": {
+    "message": "नीचे (अगला वीडियो)"
+  },
+  "scrollUp": {
+    "message": "ऊपर (पिछला वीडियो)"
+  },
+  "floatingBtn": {
+    "message": "स्क्रीन पर फ्लोटिंग बटन"
+  },
+  "pageScroll": {
+    "message": "सामान्य YouTube पेज स्क्रॉल"
+  },
+  "scrollSpeed": {
+    "message": "स्क्रॉल गति"
+  },
+  "donateCardTitle": {
+    "message": "डेवलपर को सपोर्ट करें"
+  },
+  "donateCardDesc": {
+    "message": "ko-fi.com/poordev1997 ❤️"
+  },
+  "btnDonate": {
+    "message": "सपोर्ट करें"
+  },
+  "modalTitle": {
+    "message": "सपोर्ट और दानकर्ता"
+  },
+  "tabDonate": {
+    "message": "☕ सपोर्ट (दान)"
+  },
+  "tabDonators": {
+    "message": "🌟 दानकर्ता"
+  },
+  "donateIntro": {
+    "message": "यदि आपको यह एक्सटेंशन पसंद आया है, तो डेवलपर को एक कप कॉफी भेंट करें! ☕"
+  },
+  "kofiTitle": {
+    "message": "☕ Ko-fi"
+  },
+  "kofiSub": {
+    "message": "अंतर्राष्ट्रीय कार्ड और PayPal"
+  },
+  "kofiBtn": {
+    "message": "कॉफी भेंट करें: ko-fi.com/poordev1997"
+  },
+  "kofiUrlLabel": {
+    "message": "Ko-fi लिंक"
+  },
+  "bankTitle": {
+    "message": "बैंक ट्रांसफर / क्यूआर"
+  },
+  "bankSub": {
+    "message": "त्वरित ट्रांसफर के लिए क्यूआर स्कैन करें"
+  },
+  "copy": {
+    "message": "कॉपी करें"
+  },
+  "copied": {
+    "message": "कॉपी हो गया!"
+  },
+  "donateNote": {
+    "message": "💡 आपका समर्थन इस प्रोजेक्ट को हमेशा बेहतर बनाए रखने में मदद करता है! ❤️"
+  },
+  "donatorsBadge": {
+    "message": "शीर्ष समर्थक"
+  },
+  "donatorsDesc": {
+    "message": "हमारे उदार समर्थकों का विशेष धन्यवाद ❤️"
+  },
+  "rateExtension": {
+    "message": "⭐ 5 स्टार रेटिंग दें"
+  },
+  "shortcutTip": {
+    "message": "त्वरित स्विच करने के लिए"
+  },
+  "statusOn": {
+    "message": "चालू"
+  },
+  "statusOff": {
+    "message": "बंद"
+  },
+  "toastAdSkipped": {
+    "message": "TikTok विज्ञापन छोड़ दिया गया ⚡"
+  },
+  "toastLiveSkipped": {
+    "message": "TikTok लाइव छोड़ दिया गया ⚡"
+  },
+  "toastShorts": {
+    "message": "YouTube Shorts ऑटो स्क्रॉल"
+  },
+  "toastTiktok": {
+    "message": "TikTok ऑटो स्क्रॉल"
+  },
+  "toastPage": {
+    "message": "पेज स्क्रॉल"
+  }
+}

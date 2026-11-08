@@ -1,0 +1,170 @@
+{
+  "appName": {
+    "message": "Gulir Otomatis untuk YouTube & TikTok"
+  },
+  "appDesc": {
+    "message": "Menggulir otomatis YouTube Shorts dan TikTok saat video selesai. Melewati iklan dan siaran langsung otomatis."
+  },
+  "subTitle": {
+    "message": "untuk YouTube & TikTok"
+  },
+  "masterSwitchTitle": {
+    "message": "Sakelar Utama (Nyalakan/Matikan semua)"
+  },
+  "tiktokTitle": {
+    "message": "Gulir Otomatis TikTok"
+  },
+  "tiktokDesc": {
+    "message": "Lanjut video TikTok otomatis"
+  },
+  "skipAds": {
+    "message": "Lewati Iklan Bersponsor"
+  },
+  "skipLive": {
+    "message": "Lewati Siaran Langsung (Live)"
+  },
+  "videoDelay": {
+    "message": "Jeda sebelum menggulir"
+  },
+  "delayInstant": {
+    "message": "Instan (0 detik)"
+  },
+  "delayHalfSec": {
+    "message": "0.5 detik"
+  },
+  "delayOneSec": {
+    "message": "1.0 detik"
+  },
+  "delayTwoSec": {
+    "message": "2.0 detik"
+  },
+  "shortsTitle": {
+    "message": "YouTube Shorts"
+  },
+  "shortsDesc": {
+    "message": "Lanjut Shorts otomatis"
+  },
+  "scrollDelay": {
+    "message": "Jeda sebelum menggulir"
+  },
+  "loopCount": {
+    "message": "Ulangi sebelum menggulir"
+  },
+  "loop1": {
+    "message": "1 kali (default)"
+  },
+  "loop2": {
+    "message": "2 kali"
+  },
+  "loop3": {
+    "message": "3 kali"
+  },
+  "smartSettings": {
+    "message": "Pengaturan Pintar"
+  },
+  "smartDesc": {
+    "message": "Komentar & Navigasi"
+  },
+  "pauseOnComments": {
+    "message": "Jeda saat kolom komentar terbuka"
+  },
+  "scrollDirection": {
+    "message": "Arah gulir"
+  },
+  "scrollDown": {
+    "message": "Bawah (Video berikutnya)"
+  },
+  "scrollUp": {
+    "message": "Atas (Video sebelumnya)"
+  },
+  "floatingBtn": {
+    "message": "Tombol mengambang di layar"
+  },
+  "pageScroll": {
+    "message": "Gulir halaman biasa YouTube"
+  },
+  "scrollSpeed": {
+    "message": "Kecepatan gulir"
+  },
+  "donateCardTitle": {
+    "message": "Dukung Pengembang"
+  },
+  "donateCardDesc": {
+    "message": "ko-fi.com/poordev1997 ❤️"
+  },
+  "btnDonate": {
+    "message": "Dukung"
+  },
+  "modalTitle": {
+    "message": "Dukungan & Donatur"
+  },
+  "tabDonate": {
+    "message": "☕ Dukung (Donasi)"
+  },
+  "tabDonators": {
+    "message": "🌟 Donatur"
+  },
+  "donateIntro": {
+    "message": "Jika Anda menyukai ekstensi ini, traktir pengembang secangkir kopi! ☕"
+  },
+  "kofiTitle": {
+    "message": "☕ Ko-fi"
+  },
+  "kofiSub": {
+    "message": "Kartu internasional & lokal"
+  },
+  "kofiBtn": {
+    "message": "Traktir kopi: ko-fi.com/poordev1997"
+  },
+  "kofiUrlLabel": {
+    "message": "Tautan Ko-fi"
+  },
+  "bankTitle": {
+    "message": "Transfer Bank / QR"
+  },
+  "bankSub": {
+    "message": "Pindai QR untuk transfer cepat"
+  },
+  "copy": {
+    "message": "Salin"
+  },
+  "copied": {
+    "message": "Tersalin!"
+  },
+  "donateNote": {
+    "message": "💡 Dukungan Anda menjaga proyek ini tetap aktif dan terus berkembang! ❤️"
+  },
+  "donatorsBadge": {
+    "message": "Donatur Teratas"
+  },
+  "donatorsDesc": {
+    "message": "Terima kasih banyak kepada para pendukung setia ❤️"
+  },
+  "rateExtension": {
+    "message": "⭐ Beri Nilai 5 Bintang"
+  },
+  "shortcutTip": {
+    "message": "untuk beralih cepat"
+  },
+  "statusOn": {
+    "message": "AKTIF"
+  },
+  "statusOff": {
+    "message": "NONAKTIF"
+  },
+  "toastAdSkipped": {
+    "message": "Iklan TikTok dilewati ⚡"
+  },
+  "toastLiveSkipped": {
+    "message": "Live TikTok dilewati ⚡"
+  },
+  "toastShorts": {
+    "message": "Gulir YouTube Shorts"
+  },
+  "toastTiktok": {
+    "message": "Gulir TikTok"
+  },
+  "toastPage": {
+    "message": "Gulir Halaman Biasa"
+  }
+}

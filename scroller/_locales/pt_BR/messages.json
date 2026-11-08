@@ -1,0 +1,170 @@
+{
+  "appName": {
+    "message": "Rolagem Automática para YouTube e TikTok"
+  },
+  "appDesc": {
+    "message": "Rola automaticamente YouTube Shorts e TikTok quando o vídeo termina. Pula anúncios e transmissões ao vivo."
+  },
+  "subTitle": {
+    "message": "para YouTube e TikTok"
+  },
+  "masterSwitchTitle": {
+    "message": "Interruptor Geral (Ligar/Desligar tudo)"
+  },
+  "tiktokTitle": {
+    "message": "Rolagem TikTok"
+  },
+  "tiktokDesc": {
+    "message": "Avançar vídeos do TikTok automaticamente"
+  },
+  "skipAds": {
+    "message": "Pular anúncios patrocinados"
+  },
+  "skipLive": {
+    "message": "Pular transmissões ao vivo"
+  },
+  "videoDelay": {
+    "message": "Atraso antes de rolar"
+  },
+  "delayInstant": {
+    "message": "Instantâneo (0s)"
+  },
+  "delayHalfSec": {
+    "message": "0.5 segundos"
+  },
+  "delayOneSec": {
+    "message": "1.0 segundo"
+  },
+  "delayTwoSec": {
+    "message": "2.0 segundos"
+  },
+  "shortsTitle": {
+    "message": "YouTube Shorts"
+  },
+  "shortsDesc": {
+    "message": "Avançar Shorts automaticamente"
+  },
+  "scrollDelay": {
+    "message": "Atraso antes de rolar"
+  },
+  "loopCount": {
+    "message": "Repetir antes de rolar"
+  },
+  "loop1": {
+    "message": "1 vez (padrão)"
+  },
+  "loop2": {
+    "message": "2 vezes"
+  },
+  "loop3": {
+    "message": "3 vezes"
+  },
+  "smartSettings": {
+    "message": "Configurações Inteligentes"
+  },
+  "smartDesc": {
+    "message": "Comentários e navegação"
+  },
+  "pauseOnComments": {
+    "message": "Pausar quando os comentários estiverem abertos"
+  },
+  "scrollDirection": {
+    "message": "Direção de rolagem"
+  },
+  "scrollDown": {
+    "message": "Para baixo (Próximo)"
+  },
+  "scrollUp": {
+    "message": "Para cima (Anterior)"
+  },
+  "floatingBtn": {
+    "message": "Botão flutuante na tela"
+  },
+  "pageScroll": {
+    "message": "Rolagem de página comum do YouTube"
+  },
+  "scrollSpeed": {
+    "message": "Velocidade de rolagem"
+  },
+  "donateCardTitle": {
+    "message": "Apoiar o desenvolvedor"
+  },
+  "donateCardDesc": {
+    "message": "ko-fi.com/poordev1997 ❤️"
+  },
+  "btnDonate": {
+    "message": "Apoiar"
+  },
+  "modalTitle": {
+    "message": "Apoio e Doadores"
+  },
+  "tabDonate": {
+    "message": "☕ Apoiar (Doar)"
+  },
+  "tabDonators": {
+    "message": "🌟 Doadores"
+  },
+  "donateIntro": {
+    "message": "Se você gosta desta extensão, considere pagar um café ao desenvolvedor! ☕"
+  },
+  "kofiTitle": {
+    "message": "☕ Ko-fi"
+  },
+  "kofiSub": {
+    "message": "Cartões internacionais e locais"
+  },
+  "kofiBtn": {
+    "message": "Pague-me um café: ko-fi.com/poordev1997"
+  },
+  "kofiUrlLabel": {
+    "message": "Link do Ko-fi"
+  },
+  "bankTitle": {
+    "message": "Transferência bancária / QR"
+  },
+  "bankSub": {
+    "message": "Escanear QR para transferência rápida"
+  },
+  "copy": {
+    "message": "Copiar"
+  },
+  "copied": {
+    "message": "Copiado!"
+  },
+  "donateNote": {
+    "message": "💡 Seu apoio mantém este projeto ativo e em constante evolução! ❤️"
+  },
+  "donatorsBadge": {
+    "message": "Principais Doadores"
+  },
+  "donatorsDesc": {
+    "message": "Agradecimentos especiais aos apoiadores ❤️"
+  },
+  "rateExtension": {
+    "message": "⭐ Avaliar com 5 Estrelas"
+  },
+  "shortcutTip": {
+    "message": "para alternar rapidamente"
+  },
+  "statusOn": {
+    "message": "LIGADO"
+  },
+  "statusOff": {
+    "message": "DESLIGADO"
+  },
+  "toastAdSkipped": {
+    "message": "Anúncio do TikTok pulado ⚡"
+  },
+  "toastLiveSkipped": {
+    "message": "Live do TikTok pulada ⚡"
+  },
+  "toastShorts": {
+    "message": "Rolagem YouTube Shorts"
+  },
+  "toastTiktok": {
+    "message": "Rolagem TikTok"
+  },
+  "toastPage": {
+    "message": "Rolagem de página"
+  }
+}

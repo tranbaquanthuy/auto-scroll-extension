@@ -1,0 +1,170 @@
+{
+  "appName": {
+    "message": "Автопрокрутка для YouTube и TikTok"
+  },
+  "appDesc": {
+    "message": "Автоматически перелистывает YouTube Shorts и TikTok по окончании видео. Пропускает рекламу и прямые эфиры."
+  },
+  "subTitle": {
+    "message": "для YouTube и TikTok"
+  },
+  "masterSwitchTitle": {
+    "message": "Главный переключатель (Вкл/Выкл все)"
+  },
+  "tiktokTitle": {
+    "message": "Автопрокрутка TikTok"
+  },
+  "tiktokDesc": {
+    "message": "Автоматический переход к следующему видео"
+  },
+  "skipAds": {
+    "message": "Пропускать рекламу"
+  },
+  "skipLive": {
+    "message": "Пропускать прямые эфиры (Live)"
+  },
+  "videoDelay": {
+    "message": "Задержка перед перелистыванием"
+  },
+  "delayInstant": {
+    "message": "Мгновенно (0с)"
+  },
+  "delayHalfSec": {
+    "message": "0.5 секунды"
+  },
+  "delayOneSec": {
+    "message": "1.0 секунда"
+  },
+  "delayTwoSec": {
+    "message": "2.0 секунды"
+  },
+  "shortsTitle": {
+    "message": "YouTube Shorts"
+  },
+  "shortsDesc": {
+    "message": "Автопереход к следующему Shorts"
+  },
+  "scrollDelay": {
+    "message": "Задержка перед перелистыванием"
+  },
+  "loopCount": {
+    "message": "Повторов перед перелистыванием"
+  },
+  "loop1": {
+    "message": "1 раз (по умолчанию)"
+  },
+  "loop2": {
+    "message": "2 раза"
+  },
+  "loop3": {
+    "message": "3 раза"
+  },
+  "smartSettings": {
+    "message": "Умные настройки"
+  },
+  "smartDesc": {
+    "message": "Комментарии и навигация"
+  },
+  "pauseOnComments": {
+    "message": "Пауза при открытых комментариях"
+  },
+  "scrollDirection": {
+    "message": "Направление прокрутки"
+  },
+  "scrollDown": {
+    "message": "Вниз (Следующее)"
+  },
+  "scrollUp": {
+    "message": "Вверх (Предыдущее)"
+  },
+  "floatingBtn": {
+    "message": "Плавающая кнопка на экране"
+  },
+  "pageScroll": {
+    "message": "Обычная автопрокрутка страниц YouTube"
+  },
+  "scrollSpeed": {
+    "message": "Скорость прокрутки"
+  },
+  "donateCardTitle": {
+    "message": "Поддержать разработчика"
+  },
+  "donateCardDesc": {
+    "message": "ko-fi.com/poordev1997 ❤️"
+  },
+  "btnDonate": {
+    "message": "Поддержать"
+  },
+  "modalTitle": {
+    "message": "Поддержка и меценаты"
+  },
+  "tabDonate": {
+    "message": "☕ Поддержать"
+  },
+  "tabDonators": {
+    "message": "🌟 Меценаты"
+  },
+  "donateIntro": {
+    "message": "Если вам нравится это расширение, угостите разработчика кофе! ☕"
+  },
+  "kofiTitle": {
+    "message": "☕ Ko-fi"
+  },
+  "kofiSub": {
+    "message": "Международные карты и PayPal"
+  },
+  "kofiBtn": {
+    "message": "Угостить кофе: ko-fi.com/poordev1997"
+  },
+  "kofiUrlLabel": {
+    "message": "Ссылка на Ko-fi"
+  },
+  "bankTitle": {
+    "message": "Банковский перевод / QR"
+  },
+  "bankSub": {
+    "message": "Сканируйте QR для перевода"
+  },
+  "copy": {
+    "message": "Копировать"
+  },
+  "copied": {
+    "message": "Скопировано!"
+  },
+  "donateNote": {
+    "message": "💡 Ваша поддержка помогает развивать и улучшать проект! ❤️"
+  },
+  "donatorsBadge": {
+    "message": "Главные меценаты"
+  },
+  "donatorsDesc": {
+    "message": "Особая благодарность нашим щедрым спонсорам ❤️"
+  },
+  "rateExtension": {
+    "message": "⭐ Оценить на 5 звезд"
+  },
+  "shortcutTip": {
+    "message": "для быстрого переключения"
+  },
+  "statusOn": {
+    "message": "ВКЛ"
+  },
+  "statusOff": {
+    "message": "ВЫКЛ"
+  },
+  "toastAdSkipped": {
+    "message": "Реклама TikTok пропущена ⚡"
+  },
+  "toastLiveSkipped": {
+    "message": "Трансляция TikTok пропущена ⚡"
+  },
+  "toastShorts": {
+    "message": "Автопрокрутка YouTube Shorts"
+  },
+  "toastTiktok": {
+    "message": "Автопрокрутка TikTok"
+  },
+  "toastPage": {
+    "message": "Прокрутка страницы"
+  }
+}

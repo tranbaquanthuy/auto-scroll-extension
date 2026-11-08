@@ -1,0 +1,170 @@
+{
+  "appName": {
+    "message": "YouTube 与 TikTok 自动滚动助手"
+  },
+  "appDesc": {
+    "message": "视频播放完毕自动滚动切换 YouTube Shorts 和 TikTok。自动跳过广告和直播。"
+  },
+  "subTitle": {
+    "message": "适用于 YouTube 和 TikTok"
+  },
+  "masterSwitchTitle": {
+    "message": "总开关（开启/关闭所有功能）"
+  },
+  "tiktokTitle": {
+    "message": "TikTok 自动滚动"
+  },
+  "tiktokDesc": {
+    "message": "视频播放结束自动切换"
+  },
+  "skipAds": {
+    "message": "自动跳过广告"
+  },
+  "skipLive": {
+    "message": "自动跳过直播间"
+  },
+  "videoDelay": {
+    "message": "切换延迟时间"
+  },
+  "delayInstant": {
+    "message": "立即切换 (0秒)"
+  },
+  "delayHalfSec": {
+    "message": "0.5 秒"
+  },
+  "delayOneSec": {
+    "message": "1.0 秒"
+  },
+  "delayTwoSec": {
+    "message": "2.0 秒"
+  },
+  "shortsTitle": {
+    "message": "YouTube Shorts"
+  },
+  "shortsDesc": {
+    "message": "Shorts 播放完自动换下一个"
+  },
+  "scrollDelay": {
+    "message": "切换延迟时间"
+  },
+  "loopCount": {
+    "message": "重播次数后切换"
+  },
+  "loop1": {
+    "message": "1 次（默认）"
+  },
+  "loop2": {
+    "message": "2 次"
+  },
+  "loop3": {
+    "message": "3 次"
+  },
+  "smartSettings": {
+    "message": "智能设置"
+  },
+  "smartDesc": {
+    "message": "评论区与导航方向"
+  },
+  "pauseOnComments": {
+    "message": "打开评论区时暂停滚动"
+  },
+  "scrollDirection": {
+    "message": "滚动方向"
+  },
+  "scrollDown": {
+    "message": "向下（下一个）"
+  },
+  "scrollUp": {
+    "message": "向上（上一个）"
+  },
+  "floatingBtn": {
+    "message": "屏幕悬浮按钮"
+  },
+  "pageScroll": {
+    "message": "YouTube 常规网页自动滚动"
+  },
+  "scrollSpeed": {
+    "message": "滚动速度"
+  },
+  "donateCardTitle": {
+    "message": "赞助开发者"
+  },
+  "donateCardDesc": {
+    "message": "ko-fi.com/poordev1997 ❤️"
+  },
+  "btnDonate": {
+    "message": "赞助"
+  },
+  "modalTitle": {
+    "message": "支持与赞助者名单"
+  },
+  "tabDonate": {
+    "message": "☕ 赞助支持"
+  },
+  "tabDonators": {
+    "message": "🌟 赞助名单"
+  },
+  "donateIntro": {
+    "message": "如果这个插件对你有帮助，欢迎请作者喝杯咖啡！☕"
+  },
+  "kofiTitle": {
+    "message": "☕ Ko-fi"
+  },
+  "kofiSub": {
+    "message": "支持国际信用卡与 PayPal"
+  },
+  "kofiBtn": {
+    "message": "请喝咖啡: ko-fi.com/poordev1997"
+  },
+  "kofiUrlLabel": {
+    "message": "Ko-fi 链接"
+  },
+  "bankTitle": {
+    "message": "银行转账 / 二维码"
+  },
+  "bankSub": {
+    "message": "扫码快速转账"
+  },
+  "copy": {
+    "message": "复制"
+  },
+  "copied": {
+    "message": "已复制！"
+  },
+  "donateNote": {
+    "message": "💡 您的支持是插件持续更新的巨大动力！❤️"
+  },
+  "donatorsBadge": {
+    "message": "杰出支持者"
+  },
+  "donatorsDesc": {
+    "message": "衷心感谢每一位支持者的陪伴 ❤️"
+  },
+  "rateExtension": {
+    "message": "⭐ 给予 5 星好评"
+  },
+  "shortcutTip": {
+    "message": "快捷键开关"
+  },
+  "statusOn": {
+    "message": "开启"
+  },
+  "statusOff": {
+    "message": "关闭"
+  },
+  "toastAdSkipped": {
+    "message": "已自动跳过 TikTok 广告 ⚡"
+  },
+  "toastLiveSkipped": {
+    "message": "已自动跳过 TikTok 直播 ⚡"
+  },
+  "toastShorts": {
+    "message": "YouTube Shorts 自动滚动"
+  },
+  "toastTiktok": {
+    "message": "TikTok 自动滚动"
+  },
+  "toastPage": {
+    "message": "常规页面滚动"
+  }
+}

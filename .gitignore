@@ -1,0 +1,17 @@
+# Internal agent rules & context
+AGENTS.md
+scroller/AGENTS.md
+**/AGENTS.md
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Logs and databases
+*.log
+
+# Temp files
+*.tmp

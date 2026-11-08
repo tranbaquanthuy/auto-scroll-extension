@@ -1,0 +1,170 @@
+{
+  "appName": {
+    "message": "YouTube 및 TikTok용 자동 스크롤"
+  },
+  "appDesc": {
+    "message": "비디오가 끝나면 YouTube Shorts 및 TikTok을 자동으로 스크롤합니다. 광고 및 라이브 방송 자동 건너뛰기 지원."
+  },
+  "subTitle": {
+    "message": "YouTube 및 TikTok용"
+  },
+  "masterSwitchTitle": {
+    "message": "마스터 스위치 (전체 켜기/끄기)"
+  },
+  "tiktokTitle": {
+    "message": "TikTok 자동 스크롤"
+  },
+  "tiktokDesc": {
+    "message": "TikTok 비디오 자동 넘김"
+  },
+  "skipAds": {
+    "message": "스폰서 광고 자동 건너뛰기"
+  },
+  "skipLive": {
+    "message": "라이브 방송 자동 건너뛰기"
+  },
+  "videoDelay": {
+    "message": "스크롤 대기 시간"
+  },
+  "delayInstant": {
+    "message": "즉시 (0초)"
+  },
+  "delayHalfSec": {
+    "message": "0.5초"
+  },
+  "delayOneSec": {
+    "message": "1.0초"
+  },
+  "delayTwoSec": {
+    "message": "2.0초"
+  },
+  "shortsTitle": {
+    "message": "YouTube Shorts"
+  },
+  "shortsDesc": {
+    "message": "Shorts 비디오 자동 넘김"
+  },
+  "scrollDelay": {
+    "message": "스크롤 대기 시간"
+  },
+  "loopCount": {
+    "message": "스크롤 전 반복 횟수"
+  },
+  "loop1": {
+    "message": "1회 (기본)"
+  },
+  "loop2": {
+    "message": "2회"
+  },
+  "loop3": {
+    "message": "3회"
+  },
+  "smartSettings": {
+    "message": "스마트 설정"
+  },
+  "smartDesc": {
+    "message": "댓글창 및 스크롤 방향"
+  },
+  "pauseOnComments": {
+    "message": "댓글창 열려 있을 때 일시정지"
+  },
+  "scrollDirection": {
+    "message": "스크롤 방향"
+  },
+  "scrollDown": {
+    "message": "아래로 (다음 영상)"
+  },
+  "scrollUp": {
+    "message": "위로 (이전 영상)"
+  },
+  "floatingBtn": {
+    "message": "화면 플로팅 버튼 표시"
+  },
+  "pageScroll": {
+    "message": "일반 YouTube 페이지 자동 스크롤"
+  },
+  "scrollSpeed": {
+    "message": "스크롤 속도"
+  },
+  "donateCardTitle": {
+    "message": "개발자 후원하기"
+  },
+  "donateCardDesc": {
+    "message": "ko-fi.com/poordev1997 ❤️"
+  },
+  "btnDonate": {
+    "message": "후원하기"
+  },
+  "modalTitle": {
+    "message": "후원 및 서포터즈"
+  },
+  "tabDonate": {
+    "message": "☕ 후원하기"
+  },
+  "tabDonators": {
+    "message": "🌟 서포터즈"
+  },
+  "donateIntro": {
+    "message": "이 확장 프로그램이 유용하셨다면 개발자에게 커피 한 잔을 선물해주세요! ☕"
+  },
+  "kofiTitle": {
+    "message": "☕ Ko-fi"
+  },
+  "kofiSub": {
+    "message": "해외 카드 및 PayPal 결제"
+  },
+  "kofiBtn": {
+    "message": "커피 선물하기: ko-fi.com/poordev1997"
+  },
+  "kofiUrlLabel": {
+    "message": "Ko-fi 링크"
+  },
+  "bankTitle": {
+    "message": "계좌 이체 / QR 코드"
+  },
+  "bankSub": {
+    "message": "QR 스캔으로 간편 이체"
+  },
+  "copy": {
+    "message": "복사"
+  },
+  "copied": {
+    "message": "복사됨!"
+  },
+  "donateNote": {
+    "message": "💡 여러분의 소중한 후원은 지속적인 기능 개선에 큰 힘이 됩니다! ❤️"
+  },
+  "donatorsBadge": {
+    "message": "탑 서포터즈"
+  },
+  "donatorsDesc": {
+    "message": "후원해주신 모든 분들께 진심으로 감사드립니다 ❤️"
+  },
+  "rateExtension": {
+    "message": "⭐ 별점 5점 남기기"
+  },
+  "shortcutTip": {
+    "message": "단축키로 빠르게 전환"
+  },
+  "statusOn": {
+    "message": "켜짐"
+  },
+  "statusOff": {
+    "message": "꺼짐"
+  },
+  "toastAdSkipped": {
+    "message": "TikTok 광고 건너뜀 ⚡"
+  },
+  "toastLiveSkipped": {
+    "message": "TikTok 라이브 건너뜀 ⚡"
+  },
+  "toastShorts": {
+    "message": "YouTube Shorts 자동 스크롤"
+  },
+  "toastTiktok": {
+    "message": "TikTok 자동 스크롤"
+  },
+  "toastPage": {
+    "message": "일반 페이지 스크롤"
+  }
+}

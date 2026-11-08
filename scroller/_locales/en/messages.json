@@ -1,0 +1,172 @@
+{
+  "appName": {
+    "message": "Auto Scroll for YouTube & TikTok",
+    "description": "The name of the extension"
+  },
+  "appDesc": {
+    "message": "Automatically scrolls YouTube Shorts and TikTok when videos end. Auto-advances sponsored posts and livestreams.",
+    "description": "The description of the extension"
+  },
+  "subTitle": {
+    "message": "for YouTube & TikTok"
+  },
+  "masterSwitchTitle": {
+    "message": "Master Toggle (Turn ON/OFF all features)"
+  },
+  "tiktokTitle": {
+    "message": "TikTok Auto Scroll"
+  },
+  "tiktokDesc": {
+    "message": "Auto-advance TikTok videos"
+  },
+  "skipAds": {
+    "message": "Auto-skip Sponsored Ads"
+  },
+  "skipLive": {
+    "message": "Auto-skip Livestreams"
+  },
+  "videoDelay": {
+    "message": "Delay before scrolling"
+  },
+  "delayInstant": {
+    "message": "Instant (0s)"
+  },
+  "delayHalfSec": {
+    "message": "0.5 seconds"
+  },
+  "delayOneSec": {
+    "message": "1.0 second"
+  },
+  "delayTwoSec": {
+    "message": "2.0 seconds"
+  },
+  "shortsTitle": {
+    "message": "YouTube Shorts"
+  },
+  "shortsDesc": {
+    "message": "Auto-advance Shorts videos"
+  },
+  "scrollDelay": {
+    "message": "Delay before scrolling"
+  },
+  "loopCount": {
+    "message": "Replay before scrolling"
+  },
+  "loop1": {
+    "message": "1 time (default)"
+  },
+  "loop2": {
+    "message": "2 times"
+  },
+  "loop3": {
+    "message": "3 times"
+  },
+  "smartSettings": {
+    "message": "Smart Settings"
+  },
+  "smartDesc": {
+    "message": "Comments & Navigation"
+  },
+  "pauseOnComments": {
+    "message": "Pause when comments are open"
+  },
+  "scrollDirection": {
+    "message": "Scroll direction"
+  },
+  "scrollDown": {
+    "message": "Down (Next video)"
+  },
+  "scrollUp": {
+    "message": "Up (Previous video)"
+  },
+  "floatingBtn": {
+    "message": "Floating button on screen"
+  },
+  "pageScroll": {
+    "message": "Regular YouTube auto-scroll"
+  },
+  "scrollSpeed": {
+    "message": "Regular scroll speed"
+  },
+  "donateCardTitle": {
+    "message": "Support the Developer"
+  },
+  "donateCardDesc": {
+    "message": "ko-fi.com/poordev1997 ❤️"
+  },
+  "btnDonate": {
+    "message": "Support"
+  },
+  "modalTitle": {
+    "message": "Support & Donators"
+  },
+  "tabDonate": {
+    "message": "☕ Support (Donate)"
+  },
+  "tabDonators": {
+    "message": "🌟 Donators"
+  },
+  "donateIntro": {
+    "message": "If you enjoy this extension, consider buying the developer a coffee! ☕"
+  },
+  "kofiTitle": {
+    "message": "☕ Ko-fi"
+  },
+  "kofiSub": {
+    "message": "International & local cards"
+  },
+  "kofiBtn": {
+    "message": "Buy me a coffee: ko-fi.com/poordev1997"
+  },
+  "kofiUrlLabel": {
+    "message": "Ko-fi Link"
+  },
+  "bankTitle": {
+    "message": "Bank Transfer / VietQR"
+  },
+  "bankSub": {
+    "message": "Scan QR for quick transfer"
+  },
+  "copy": {
+    "message": "Copy"
+  },
+  "copied": {
+    "message": "Copied!"
+  },
+  "donateNote": {
+    "message": "💡 Your support keeps this project active and continuously improved! ❤️"
+  },
+  "donatorsBadge": {
+    "message": "Top Supporters"
+  },
+  "donatorsDesc": {
+    "message": "Special thanks to our generous supporters ❤️"
+  },
+  "rateExtension": {
+    "message": "⭐ Rate 5 Stars"
+  },
+  "shortcutTip": {
+    "message": "to toggle quickly"
+  },
+  "statusOn": {
+    "message": "ON"
+  },
+  "statusOff": {
+    "message": "OFF"
+  },
+  "toastAdSkipped": {
+    "message": "Skipped TikTok Ad ⚡"
+  },
+  "toastLiveSkipped": {
+    "message": "Skipped TikTok Live ⚡"
+  },
+  "toastShorts": {
+    "message": "YouTube Shorts Auto Scroll"
+  },
+  "toastTiktok": {
+    "message": "TikTok Auto Scroll"
+  },
+  "toastPage": {
+    "message": "Regular Page Scroll"
+  }
+}

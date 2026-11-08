@@ -1,0 +1,172 @@
+{
+  "appName": {
+    "message": "Auto Scroll cho YouTube & TikTok",
+    "description": "Tên tiện ích"
+  },
+  "appDesc": {
+    "message": "Tự động lướt YouTube Shorts & TikTok khi xem xong. Tự động bỏ qua bài đăng tài trợ và livestream.",
+    "description": "Mô tả tiện ích"
+  },
+  "subTitle": {
+    "message": "cho YouTube & TikTok"
+  },
+  "masterSwitchTitle": {
+    "message": "Công tắc tổng (Bật/Tắt toàn bộ tính năng)"
+  },
+  "tiktokTitle": {
+    "message": "TikTok Auto Scroll"
+  },
+  "tiktokDesc": {
+    "message": "Tự động lướt video TikTok"
+  },
+  "skipAds": {
+    "message": "Tự động bỏ qua Quảng cáo (Ad)"
+  },
+  "skipLive": {
+    "message": "Tự động bỏ qua Livestream"
+  },
+  "videoDelay": {
+    "message": "Thời gian chờ chuyển video"
+  },
+  "delayInstant": {
+    "message": "Ngay lập tức (0s)"
+  },
+  "delayHalfSec": {
+    "message": "0.5 giây"
+  },
+  "delayOneSec": {
+    "message": "1.0 giây"
+  },
+  "delayTwoSec": {
+    "message": "2.0 giây"
+  },
+  "shortsTitle": {
+    "message": "YouTube Shorts"
+  },
+  "shortsDesc": {
+    "message": "Tự chuyển tiếp Shorts"
+  },
+  "scrollDelay": {
+    "message": "Thời gian chờ chuyển tiếp"
+  },
+  "loopCount": {
+    "message": "Lặp lại trước khi lướt"
+  },
+  "loop1": {
+    "message": "1 lần (mặc định)"
+  },
+  "loop2": {
+    "message": "2 lần"
+  },
+  "loop3": {
+    "message": "3 lần"
+  },
+  "smartSettings": {
+    "message": "Cài đặt thông minh"
+  },
+  "smartDesc": {
+    "message": "Bình luận & Điều hướng"
+  },
+  "pauseOnComments": {
+    "message": "Dừng lướt khi đang mở bình luận"
+  },
+  "scrollDirection": {
+    "message": "Hướng chuyển video"
+  },
+  "scrollDown": {
+    "message": "Xuống (Tiếp theo)"
+  },
+  "scrollUp": {
+    "message": "Lên (Trước đó)"
+  },
+  "floatingBtn": {
+    "message": "Nút nổi trên màn hình (Shorts/TikTok)"
+  },
+  "pageScroll": {
+    "message": "Cuộn trang YouTube thường"
+  },
+  "scrollSpeed": {
+    "message": "Tốc độ cuộn trang thường"
+  },
+  "donateCardTitle": {
+    "message": "Ủng hộ tác giả (Donate)"
+  },
+  "donateCardDesc": {
+    "message": "ko-fi.com/poordev1997 ❤️"
+  },
+  "btnDonate": {
+    "message": "Ủng hộ"
+  },
+  "modalTitle": {
+    "message": "Ủng hộ & Donators"
+  },
+  "tabDonate": {
+    "message": "☕ Ủng hộ (Donate)"
+  },
+  "tabDonators": {
+    "message": "🌟 Bảng Donators"
+  },
+  "donateIntro": {
+    "message": "Nếu tiện ích này hữu ích với bạn, hãy mời tác giả một ly cà phê nhé! ☕"
+  },
+  "kofiTitle": {
+    "message": "☕ Ko-fi"
+  },
+  "kofiSub": {
+    "message": "Ủng hộ quốc tế & nội địa"
+  },
+  "kofiBtn": {
+    "message": "Mời ly cà phê: ko-fi.com/poordev1997"
+  },
+  "kofiUrlLabel": {
+    "message": "Link Ko-fi"
+  },
+  "bankTitle": {
+    "message": "Ngân hàng / VietQR"
+  },
+  "bankSub": {
+    "message": "Quét mã chuyển nhanh"
+  },
+  "copy": {
+    "message": "Sao chép"
+  },
+  "copied": {
+    "message": "Đã chép!"
+  },
+  "donateNote": {
+    "message": "💡 Mọi đóng góp từ bạn là nguồn động lực to lớn giúp tiện ích ngày càng hoàn thiện hơn! ❤️"
+  },
+  "donatorsBadge": {
+    "message": "Top Supporters"
+  },
+  "donatorsDesc": {
+    "message": "Tri ân những người bạn đồng hành ❤️"
+  },
+  "rateExtension": {
+    "message": "⭐ Đánh giá 5 sao"
+  },
+  "shortcutTip": {
+    "message": "để Bật / Tắt nhanh"
+  },
+  "statusOn": {
+    "message": "BẬT"
+  },
+  "statusOff": {
+    "message": "TẮT"
+  },
+  "toastAdSkipped": {
+    "message": "Đã tự động bỏ qua quảng cáo TikTok ⚡"
+  },
+  "toastLiveSkipped": {
+    "message": "Đã tự động bỏ qua Livestream TikTok ⚡"
+  },
+  "toastShorts": {
+    "message": "YouTube Shorts Auto Scroll"
+  },
+  "toastTiktok": {
+    "message": "TikTok Auto Scroll"
+  },
+  "toastPage": {
+    "message": "Cuộn trang thường"
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "appName": {
+    "message": "Automatisches Scrollen für YouTube & TikTok"
+  },
+  "appDesc": {
+    "message": "Scrollt automatisch durch YouTube Shorts und TikTok, sobald Videos enden. Überspringt Werbung und Livestreams."
+  },
+  "subTitle": {
+    "message": "für YouTube & TikTok"
+  },
+  "masterSwitchTitle": {
+    "message": "Hauptschalter (Alles ein-/ausschalten)"
+  },
+  "tiktokTitle": {
+    "message": "TikTok Auto-Scroll"
+  },
+  "tiktokDesc": {
+    "message": "TikTok-Videos automatisch weiterschalten"
+  },
+  "skipAds": {
+    "message": "Gesponserte Werbung überspringen"
+  },
+  "skipLive": {
+    "message": "Livestreams überspringen"
+  },
+  "videoDelay": {
+    "message": "Verzögerung vor dem Scrollen"
+  },
+  "delayInstant": {
+    "message": "Sofort (0s)"
+  },
+  "delayHalfSec": {
+    "message": "0,5 Sekunden"
+  },
+  "delayOneSec": {
+    "message": "1,0 Sekunde"
+  },
+  "delayTwoSec": {
+    "message": "2,0 Sekunden"
+  },
+  "shortsTitle": {
+    "message": "YouTube Shorts"
+  },
+  "shortsDesc": {
+    "message": "Shorts automatisch weiterschalten"
+  },
+  "scrollDelay": {
+    "message": "Verzögerung vor dem Scrollen"
+  },
+  "loopCount": {
+    "message": "Wiederholungen vor dem Scrollen"
+  },
+  "loop1": {
+    "message": "1 Mal (Standard)"
+  },
+  "loop2": {
+    "message": "2 Mal"
+  },
+  "loop3": {
+    "message": "3 Mal"
+  },
+  "smartSettings": {
+    "message": "Intelligente Einstellungen"
+  },
+  "smartDesc": {
+    "message": "Kommentare & Navigation"
+  },
+  "pauseOnComments": {
+    "message": "Pausieren, wenn Kommentare geöffnet sind"
+  },
+  "scrollDirection": {
+    "message": "Scroll-Richtung"
+  },
+  "scrollDown": {
+    "message": "Nach unten (Nächstes)"
+  },
+  "scrollUp": {
+    "message": "Nach oben (Vorheriges)"
+  },
+  "floatingBtn": {
+    "message": "Schwebender Button auf dem Bildschirm"
+  },
+  "pageScroll": {
+    "message": "Normales YouTube-Seiten-Scrollen"
+  },
+  "scrollSpeed": {
+    "message": "Scroll-Geschwindigkeit"
+  },
+  "donateCardTitle": {
+    "message": "Entwickler unterstützen"
+  },
+  "donateCardDesc": {
+    "message": "ko-fi.com/poordev1997 ❤️"
+  },
+  "btnDonate": {
+    "message": "Spenden"
+  },
+  "modalTitle": {
+    "message": "Spenden & Unterstützer"
+  },
+  "tabDonate": {
+    "message": "☕ Spenden"
+  },
+  "tabDonators": {
+    "message": "🌟 Unterstützer"
+  },
+  "donateIntro": {
+    "message": "Wenn dir diese Erweiterung gefällt, lade den Entwickler auf einen Kaffee ein! ☕"
+  },
+  "kofiTitle": {
+    "message": "☕ Ko-fi"
+  },
+  "kofiSub": {
+    "message": "Internationale Karten & PayPal"
+  },
+  "kofiBtn": {
+    "message": "Kaffee spendieren: ko-fi.com/poordev1997"
+  },
+  "kofiUrlLabel": {
+    "message": "Ko-fi Link"
+  },
+  "bankTitle": {
+    "message": "Banküberweisung / QR"
+  },
+  "bankSub": {
+    "message": "QR scannen für Sofortüberweisung"
+  },
+  "copy": {
+    "message": "Kopieren"
+  },
+  "copied": {
+    "message": "Kopiert!"
+  },
+  "donateNote": {
+    "message": "💡 Deine Unterstützung hält das Projekt aktiv und wird ständig verbessert! ❤️"
+  },
+  "donatorsBadge": {
+    "message": "Top-Unterstützer"
+  },
+  "donatorsDesc": {
+    "message": "Besonderer Dank an unsere großzügigen Unterstützer ❤️"
+  },
+  "rateExtension": {
+    "message": "⭐ 5 Sterne bewerten"
+  },
+  "shortcutTip": {
+    "message": "zum schnellen Umschalten"
+  },
+  "statusOn": {
+    "message": "EIN"
+  },
+  "statusOff": {
+    "message": "AUS"
+  },
+  "toastAdSkipped": {
+    "message": "TikTok-Werbung übersprungen ⚡"
+  },
+  "toastLiveSkipped": {
+    "message": "TikTok-Livestream übersprungen ⚡"
+  },
+  "toastShorts": {
+    "message": "YouTube Shorts Auto-Scroll"
+  },
+  "toastTiktok": {
+    "message": "TikTok Auto-Scroll"
+  },
+  "toastPage": {
+    "message": "Seiten-Scrollen"
+  }
+}

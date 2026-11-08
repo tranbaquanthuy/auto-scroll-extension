@@ -1,0 +1,170 @@
+{
+  "appName": {
+    "message": "YouTube & TikTok 向け自動スクロール"
+  },
+  "appDesc": {
+    "message": "動画終了時にYouTube ShortsとTikTokを自動スクロール。広告とライブ配信を自動スキップ。"
+  },
+  "subTitle": {
+    "message": "YouTube & TikTok 向け"
+  },
+  "masterSwitchTitle": {
+    "message": "マスタースイッチ（全機能のオン/オフ）"
+  },
+  "tiktokTitle": {
+    "message": "TikTok 自動スクロール"
+  },
+  "tiktokDesc": {
+    "message": "TikTok動画の自動スキップ"
+  },
+  "skipAds": {
+    "message": "スポンサー広告を自動スキップ"
+  },
+  "skipLive": {
+    "message": "ライブ配信を自動スキップ"
+  },
+  "videoDelay": {
+    "message": "スクロール待機時間"
+  },
+  "delayInstant": {
+    "message": "即時 (0秒)"
+  },
+  "delayHalfSec": {
+    "message": "0.5 秒"
+  },
+  "delayOneSec": {
+    "message": "1.0 秒"
+  },
+  "delayTwoSec": {
+    "message": "2.0 秒"
+  },
+  "shortsTitle": {
+    "message": "YouTube Shorts"
+  },
+  "shortsDesc": {
+    "message": "Shorts動画を自動で次に送る"
+  },
+  "scrollDelay": {
+    "message": "スクロール待機時間"
+  },
+  "loopCount": {
+    "message": "スクロール前のリピート回数"
+  },
+  "loop1": {
+    "message": "1回（デフォルト）"
+  },
+  "loop2": {
+    "message": "2回"
+  },
+  "loop3": {
+    "message": "3回"
+  },
+  "smartSettings": {
+    "message": "スマート設定"
+  },
+  "smartDesc": {
+    "message": "コメントとスクロール方向"
+  },
+  "pauseOnComments": {
+    "message": "コメント欄を開いている間は停止"
+  },
+  "scrollDirection": {
+    "message": "スクロール方向"
+  },
+  "scrollDown": {
+    "message": "下（次の動画）"
+  },
+  "scrollUp": {
+    "message": "上（前の動画）"
+  },
+  "floatingBtn": {
+    "message": "画面上のフローティングボタン"
+  },
+  "pageScroll": {
+    "message": "YouTube通常ページの自動スクロール"
+  },
+  "scrollSpeed": {
+    "message": "スクロール速度"
+  },
+  "donateCardTitle": {
+    "message": "開発者をサポート"
+  },
+  "donateCardDesc": {
+    "message": "ko-fi.com/poordev1997 ❤️"
+  },
+  "btnDonate": {
+    "message": "サポート"
+  },
+  "modalTitle": {
+    "message": "サポート＆サポーター一覧"
+  },
+  "tabDonate": {
+    "message": "☕ 寄付する"
+  },
+  "tabDonators": {
+    "message": "🌟 サポーター"
+  },
+  "donateIntro": {
+    "message": "この拡張機能が役立ったら、ぜひ開発者にコーヒーをご馳走してください！☕"
+  },
+  "kofiTitle": {
+    "message": "☕ Ko-fi"
+  },
+  "kofiSub": {
+    "message": "国際カード＆PayPal対応"
+  },
+  "kofiBtn": {
+    "message": "コーヒーをごちそうする: ko-fi.com/poordev1997"
+  },
+  "kofiUrlLabel": {
+    "message": "Ko-fi リンク"
+  },
+  "bankTitle": {
+    "message": "銀行振込 / QRコード"
+  },
+  "bankSub": {
+    "message": "QRスキャンで簡単送金"
+  },
+  "copy": {
+    "message": "コピー"
+  },
+  "copied": {
+    "message": "コピー完了！"
+  },
+  "donateNote": {
+    "message": "💡 皆様のご支援が継続的なアップデートの力になります！❤️"
+  },
+  "donatorsBadge": {
+    "message": "トップサポーター"
+  },
+  "donatorsDesc": {
+    "message": "サポートしてくださった皆様に感謝申し上げます ❤️"
+  },
+  "rateExtension": {
+    "message": "⭐ 5つ星レビュー"
+  },
+  "shortcutTip": {
+    "message": "で素早く切り替え"
+  },
+  "statusOn": {
+    "message": "オン"
+  },
+  "statusOff": {
+    "message": "オフ"
+  },
+  "toastAdSkipped": {
+    "message": "TikTok広告をスキップしました ⚡"
+  },
+  "toastLiveSkipped": {
+    "message": "TikTokライブをスキップしました ⚡"
+  },
+  "toastShorts": {
+    "message": "YouTube Shorts 自動スクロール"
+  },
+  "toastTiktok": {
+    "message": "TikTok 自動スクロール"
+  },
+  "toastPage": {
+    "message": "通常ページスクロール"
+  }
+}

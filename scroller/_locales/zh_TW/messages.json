@@ -1,0 +1,170 @@
+{
+  "appName": {
+    "message": "YouTube 與 TikTok 自動滾動助手"
+  },
+  "appDesc": {
+    "message": "影片播放完畢後自動滾動切換 YouTube Shorts 與 TikTok。自動略過廣告與直播。"
+  },
+  "subTitle": {
+    "message": "適用於 YouTube 和 TikTok"
+  },
+  "masterSwitchTitle": {
+    "message": "總開關（開啟/關閉全部功能）"
+  },
+  "tiktokTitle": {
+    "message": "TikTok 自動滾動"
+  },
+  "tiktokDesc": {
+    "message": "影片播放完自動換下一部"
+  },
+  "skipAds": {
+    "message": "自動略過贊助廣告"
+  },
+  "skipLive": {
+    "message": "自動略過直播"
+  },
+  "videoDelay": {
+    "message": "切換延遲時間"
+  },
+  "delayInstant": {
+    "message": "立即切換 (0秒)"
+  },
+  "delayHalfSec": {
+    "message": "0.5 秒"
+  },
+  "delayOneSec": {
+    "message": "1.0 秒"
+  },
+  "delayTwoSec": {
+    "message": "2.0 秒"
+  },
+  "shortsTitle": {
+    "message": "YouTube Shorts"
+  },
+  "shortsDesc": {
+    "message": "Shorts 播放完自動換下一部"
+  },
+  "scrollDelay": {
+    "message": "切換延遲時間"
+  },
+  "loopCount": {
+    "message": "重播次數後切換"
+  },
+  "loop1": {
+    "message": "1 次（預設）"
+  },
+  "loop2": {
+    "message": "2 次"
+  },
+  "loop3": {
+    "message": "3 次"
+  },
+  "smartSettings": {
+    "message": "智慧設定"
+  },
+  "smartDesc": {
+    "message": "留言區與導航方向"
+  },
+  "pauseOnComments": {
+    "message": "開啟留言區時暫停滾動"
+  },
+  "scrollDirection": {
+    "message": "滾動方向"
+  },
+  "scrollDown": {
+    "message": "向下（下一部）"
+  },
+  "scrollUp": {
+    "message": "向上（上一部）"
+  },
+  "floatingBtn": {
+    "message": "螢幕懸浮按鈕"
+  },
+  "pageScroll": {
+    "message": "YouTube 一般網頁自動滾動"
+  },
+  "scrollSpeed": {
+    "message": "滾動速度"
+  },
+  "donateCardTitle": {
+    "message": "贊助開發者"
+  },
+  "donateCardDesc": {
+    "message": "ko-fi.com/poordev1997 ❤️"
+  },
+  "btnDonate": {
+    "message": "贊助"
+  },
+  "modalTitle": {
+    "message": "支援與贊助者名單"
+  },
+  "tabDonate": {
+    "message": "☕ 贊助支援"
+  },
+  "tabDonators": {
+    "message": "🌟 贊助榜單"
+  },
+  "donateIntro": {
+    "message": "如果這個擴充功能對您有幫助，歡迎請作者喝杯咖啡！☕"
+  },
+  "kofiTitle": {
+    "message": "☕ Ko-fi"
+  },
+  "kofiSub": {
+    "message": "支援國際信用卡與 PayPal"
+  },
+  "kofiBtn": {
+    "message": "請作者喝咖啡: ko-fi.com/poordev1997"
+  },
+  "kofiUrlLabel": {
+    "message": "Ko-fi 連結"
+  },
+  "bankTitle": {
+    "message": "銀行轉帳 / QR Code"
+  },
+  "bankSub": {
+    "message": "掃描二維碼快速轉帳"
+  },
+  "copy": {
+    "message": "複製"
+  },
+  "copied": {
+    "message": "已複製！"
+  },
+  "donateNote": {
+    "message": "💡 您的支持是我們持續更新優化的最大動力！❤️"
+  },
+  "donatorsBadge": {
+    "message": "榮譽支持者"
+  },
+  "donatorsDesc": {
+    "message": "由衷感謝每一位支持者的鼓勵 ❤️"
+  },
+  "rateExtension": {
+    "message": "⭐ 給予 5 星好評"
+  },
+  "shortcutTip": {
+    "message": "快捷鍵開關"
+  },
+  "statusOn": {
+    "message": "開啟"
+  },
+  "statusOff": {
+    "message": "關閉"
+  },
+  "toastAdSkipped": {
+    "message": "已自動略過 TikTok 廣告 ⚡"
+  },
+  "toastLiveSkipped": {
+    "message": "已自動略過 TikTok 直播 ⚡"
+  },
+  "toastShorts": {
+    "message": "YouTube Shorts 自動滾動"
+  },
+  "toastTiktok": {
+    "message": "TikTok 自動滾動"
+  },
+  "toastPage": {
+    "message": "一般網頁滾動"
+  }
+}
